@@ -1,10 +1,11 @@
-# Tuplas em Python: Simples, Nomeadas e Aninhadas
+# Tuplas em Python: Meses do Ano
 
-Exemplos práticos demonstrando diferentes formas de trabalhar com tuplas em Python, desde o acesso básico por índices até estruturas mais legíveis com `NamedTuple` e tuplas aninhadas.
+Exemplos práticos demonstrando diferentes formas de trabalhar com tuplas em Python, desde o acesso básico por índices até a iteração completa dos elementos com `for`.
 
 ## Conteúdo
 
-- **Tupla simples:** criação, indexação positiva e negativa (`[0]`, `[-1]`) e iteração com `for`.
-- **Tuplas nomeadas (`NamedTuple`):** acesso aos valores por nome de atributo mantendo a imutabilidade da tupla.
-- **Tuplas aninhadas:** armazenamento de pares de dados (como número e nome do mês) e desempacotamento em laços.
+- **Tupla simples:** criação de uma tupla com os 12 meses do ano.
+- **Indexação positiva e negativa:** acesso ao primeiro (`[0]`), último (`[-1]`), segundo (`[1]`) e penúltimo (`[-2]`) elemento.
+- **Iteração com `for`:** percorre e exibe todos os meses, um por linha.
+- **F-strings:** formatação de saída com interpolação de variáveis (`f"...{var}"`).
 
